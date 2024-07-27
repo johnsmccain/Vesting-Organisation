@@ -35,9 +35,9 @@ const Withdraw = ({signer}:any) => {
     };
 
     return (
-        <div>
-            <h2>Withdraw Tokens</h2>
-            <button onClick={withdrawTokens}>Withdraw</button>
+        <div className="flex items-center flex-col">
+            <h2 className='text-xl font-bold'>Withdraw Tokens</h2>
+            <button className='hover:shadow-lg font-semibold shadow-sm w-fit px-5 py-2 rounded-md mt-7' onClick={withdrawTokens}>Withdraw</button>
         </div>
     );
 };
